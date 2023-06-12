@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance List</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="navbar">
+        <li><a href="#attendanceFormSection">Add Attendee</a></li>
+        <li><a href="#attendanceListSection">Attendance List</a></li>
+      </ul>
+    </nav>
+    <h1>Backend Web Development</h1>
+
+    <section id="attendanceFormSection"  class="hidden">
+      <h2>Add Attendee</h2>
+
+      <form id="attendanceForm">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" required>
+        
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="attendanceListSection">
+      <h2>Attendance List</h2>
+
+      <main>
+      </main>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
